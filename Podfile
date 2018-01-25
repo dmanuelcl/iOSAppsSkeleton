@@ -8,6 +8,8 @@ target '____PROJECTNAME____' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxSwiftExt'
+  pod 'RxFlow'
+  pod 'Reusable'
   pod 'Action'
   pod 'RxKeyboard'
   pod 'RxOptional'

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxFlow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+
+import RxFlow
+
+class &lt;#App#&gt;Flow: Flow {
+
+    var root: UIViewController {
+        return self.rootViewController
+    }
+
+    private let rootViewController = &lt;#UINavigationController#&gt;
+    private let service: &lt;#UseCaseService#&gt;
+
+    init(withService service: &lt;#UseCaseService#&gt;) {
+        self.service = service
+    }
+
+    func navigate(to step: Step) -&gt; [Flowable] {
+        switch step {
+        case &lt;#stepList#&gt;:
+            return self.navigateToSomethingListScreen()
+        case &lt;#.somethingPicked(let somethingId)#&gt;:
+            return self.navigateToSomethingDetailScreen(with: &lt;#somethingId#&gt;)
+        default:
+            return Flowable.noFlow
+        }
+    }
+
+    private func navigateToSomethingListScreen() -&gt; [Flowable] {
+        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.service)
+        let viewController = &lt;#UseCase#&gt;ViewController.instantiate(with: viewModel)
+        viewController.title = "Something Title"
+        self.rootViewController.pushViewController(viewController, animated: true)
+        return [Flowable(nextPresentable: viewController, nextStepper: viewModel)]
+    }
+
+    private func navigateToSomethingDetailScreen(with &lt;#something#&gt;Id: Int) -&gt; [Flowable] {
+        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.service, andMovieId: &lt;#somethingId#&gt;)
+        let viewController = &lt;#UseCase#&gt;ViewController.instantiate(with: viewModel)
+        viewController.title = "Something Title"
+        self.rootViewController.pushViewController(viewController, animated: true)
+        return [Flowable(nextPresentable: viewController, nextStepper: viewModel)]
+    }
+
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7097E302-23B4-4819-9825-D813905194E5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a flow based on RxFlow Framework</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>rxFlow Flow</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

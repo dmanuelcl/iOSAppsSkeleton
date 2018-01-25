@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>rxStep</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import RxFlow
+
+enum &lt;#AppStep#&gt;: Step{
+    case &lt;#movieList#&gt;
+    case &lt;#moviePicked(withMovieId: Int)#&gt;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8889DFF1-964A-4E2E-952B-EB8570D7F7EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create a step for app flows based on RxFlow Framework</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RxFlow Step</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

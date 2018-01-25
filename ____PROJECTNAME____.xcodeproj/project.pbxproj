@@ -26,6 +26,9 @@
 		0F5F23C22019CD020040D0B1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23C12019CD020040D0B1 /* Double.swift */; };
 		0F5F23C42019CD530040D0B1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23C32019CD530040D0B1 /* String.swift */; };
 		0F5F23C62019CDEA0040D0B1 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23C52019CDEA0040D0B1 /* FontsManager.swift */; };
+		0F807038201A488100463852 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807037201A488100463852 /* UIView+Designable.swift */; };
+		0F80703A201A746400463852 /* MainFow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807039201A746400463852 /* MainFow.swift */; };
+		0F80703D201A7BB900463852 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80703C201A7BB900463852 /* ViewModelBased.swift */; };
 		0F918CA22019B438006550C6 /* AppDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F918C992019B437006550C6 /* AppDomain.framework */; };
 		0F918CA92019B438006550C6 /* AppDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F918CA82019B438006550C6 /* AppDomainTests.swift */; };
 		0F918CAB2019B438006550C6 /* AppDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F918C9B2019B437006550C6 /* AppDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -118,6 +121,9 @@
 		0F5F23C12019CD020040D0B1 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		0F5F23C32019CD530040D0B1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0F5F23C52019CDEA0040D0B1 /* FontsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		0F807037201A488100463852 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
+		0F807039201A746400463852 /* MainFow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFow.swift; sourceTree = "<group>"; };
+		0F80703C201A7BB900463852 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
 		0F918C6D2019B2B6006550C6 /* ____PROJECTNAME____Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "____PROJECTNAME____Tests.swift"; sourceTree = "<group>"; };
 		0F918C6E2019B2B6006550C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F918C702019B2B6006550C6 /* ____PROJECTNAME____UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "____PROJECTNAME____UITests.swift"; sourceTree = "<group>"; };
@@ -237,6 +243,14 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		0F80703B201A7BA600463852 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0F80703C201A7BB900463852 /* ViewModelBased.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		0F918BF92019B20F006550C6 = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +290,7 @@
 			children = (
 				0F918C7E2019B2B7006550C6 /* App.swift */,
 				0F918C812019B2B7006550C6 /* UseCasesProviders.swift */,
+				0F80703B201A7BA600463852 /* Protocols */,
 				0F5F23BE2019C6820040D0B1 /* Constants */,
 				0F5F23B12019C1950040D0B1 /* Helpers */,
 				0F918C672019B2B6006550C6 /* UI */,
@@ -292,6 +307,7 @@
 		0F918C672019B2B6006550C6 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0F807037201A488100463852 /* UIView+Designable.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -369,6 +385,7 @@
 		0F918C7F2019B2B7006550C6 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				0F807039201A746400463852 /* MainFow.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -800,8 +817,10 @@
 				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/FlowTables/FlowTables.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFlow/RxFlow.framework",
 				"${BUILT_PRODUCTS_DIR}/RxKeyboard/RxKeyboard.framework",
 				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -814,8 +833,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlowTables.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFlow.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxKeyboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -982,6 +1003,7 @@
 			files = (
 				0F5F23C02019C6AE0040D0B1 /* Fonts.swift in Sources */,
 				0F918D292019B7FB006550C6 /* AppDelegate.swift in Sources */,
+				0F80703A201A746400463852 /* MainFow.swift in Sources */,
 				0F5F23B92019C2610040D0B1 /* UITextField.swift in Sources */,
 				0F5F23BD2019C36B0040D0B1 /* UIViewController.swift in Sources */,
 				0F5F23BB2019C29E0040D0B1 /* UIView.swift in Sources */,
@@ -989,11 +1011,13 @@
 				0F5F23AE2019C1730040D0B1 /* UIImage.swift in Sources */,
 				0F5F23AC2019C1530040D0B1 /* UIColor.swift in Sources */,
 				0F5F23C62019CDEA0040D0B1 /* FontsManager.swift in Sources */,
+				0F80703D201A7BB900463852 /* ViewModelBased.swift in Sources */,
 				0F5F23B32019C1A80040D0B1 /* ObjCWrappers.swift in Sources */,
 				0F5F23BF2019C6A80040D0B1 /* Colors.swift in Sources */,
 				0F5F23B72019C2000040D0B1 /* UITableView.swift in Sources */,
 				0F5F23B02019C1870040D0B1 /* UINavigationBar.swift in Sources */,
 				0F918D262019B740006550C6 /* App.swift in Sources */,
+				0F807038201A488100463852 /* UIView+Designable.swift in Sources */,
 				0F5F23C22019CD020040D0B1 /* Double.swift in Sources */,
 				0F5F23C42019CD530040D0B1 /* String.swift in Sources */,
 				0F42B3BB2019B8CD00477F11 /* UseCasesProviders.swift in Sources */,
