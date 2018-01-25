@@ -11,6 +11,6 @@ import Foundation
 struct UseCasesProviders {
 
     static let shared: UseCasesProviders = UseCasesProviders()
-
+    
     //MARK: Use Cases Providers
 }

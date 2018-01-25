@@ -1,0 +1,54 @@
+PODS:
+  - Action (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - Differentiator (3.0.2)
+  - DZNEmptyDataSet (1.8.1)
+  - FlowTables (0.8.2)
+  - RxCocoa (4.1.1):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxKeyboard (0.8.1):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+  - RxOptional (3.3.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.1)
+  - RxSwiftExt (3.1.0):
+    - RxSwiftExt/Core (= 3.1.0)
+  - RxSwiftExt/Core (3.1.0):
+    - RxSwift (~> 4.0)
+  - UILocalizable (0.2.0)
+
+DEPENDENCIES:
+  - Action
+  - DZNEmptyDataSet
+  - FlowTables
+  - RxCocoa
+  - RxDataSources
+  - RxKeyboard
+  - RxOptional
+  - RxSwift
+  - RxSwiftExt
+  - UILocalizable
+
+SPEC CHECKSUMS:
+  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FlowTables: 97e6a00574309663e61b9a812838a3529879fe5b
+  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxKeyboard: 28d984440671becc75350b1dfae7ae08d31076df
+  RxOptional: e5448d3e21024489e07c31f6a262f2b50c975367
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+  RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
+  UILocalizable: 5cda0ea31e985829fc390f8725d68d212a876110
+
+PODFILE CHECKSUM: 2737ea07e5b139e6d43cd67a10973e0b1618d276
+
+COCOAPODS: 1.4.0.rc.1

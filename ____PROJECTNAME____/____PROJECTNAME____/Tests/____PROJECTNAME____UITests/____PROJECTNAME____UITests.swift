@@ -3,7 +3,7 @@
 //  ____PROJECTNAME____UITests
 //
 //  Created by Dani Manuel Céspedes Lara on 1/25/18.
-//  Copyright © 2018 Dani Manuel Céspedes Lara. All rights reserved.
+//  Copyright © ____PROJECTNAME____. All rights reserved.
 //
 
 import XCTest

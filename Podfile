@@ -14,6 +14,7 @@ target '____PROJECTNAME____' do
   pod 'RxDataSources'
   pod 'FlowTables'
   pod 'UILocalizable'
+  pod 'DZNEmptyDataSet'
 
   target '____PROJECTNAME____Tests' do
     inherit! :search_paths
