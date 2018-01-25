@@ -274,6 +274,8 @@
 		0F918C662019B2B6006550C6 /* ____PROJECTNAME____ */ = {
 			isa = PBXGroup;
 			children = (
+				0F918C7E2019B2B7006550C6 /* App.swift */,
+				0F918C812019B2B7006550C6 /* UseCasesProviders.swift */,
 				0F5F23BE2019C6820040D0B1 /* Constants */,
 				0F5F23B12019C1950040D0B1 /* Helpers */,
 				0F918C672019B2B6006550C6 /* UI */,
@@ -282,9 +284,7 @@
 				0F918C722019B2B6006550C6 /* Extensions */,
 				0F918C742019B2B7006550C6 /* Supporting Files */,
 				0F918C7C2019B2B7006550C6 /* Workers */,
-				0F918C7E2019B2B7006550C6 /* App.swift */,
 				0F918C7F2019B2B7006550C6 /* Flows */,
-				0F918C812019B2B7006550C6 /* UseCasesProviders.swift */,
 			);
 			path = "____PROJECTNAME____";
 			sourceTree = "<group>";
