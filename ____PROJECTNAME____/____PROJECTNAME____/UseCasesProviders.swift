@@ -8,9 +8,7 @@
 
 import Foundation
 
-struct UseCasesProviders {
+public protocol UseCaseProvider {
 
-    static let shared: UseCasesProviders = UseCasesProviders()
-    
-    //MARK: Use Cases Providers
+//    func makePostsUseCase() -> PostsUseCase
 }

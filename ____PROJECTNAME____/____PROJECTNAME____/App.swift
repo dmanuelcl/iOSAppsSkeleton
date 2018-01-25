@@ -10,8 +10,8 @@ import Foundation
 
 struct App {
 
-    //MARK: Use Cases Providers
-    static let useCasesProviders: UseCasesProviders = UseCasesProviders.shared
+    //MARK: Use Case Provider
+    static let useCaseProvider: UseCaseProvider!
 
     //MARK: Flows
 
