@@ -8,10 +8,6 @@
 
 import UIKit
 
-class DesignableUIView: UIView{}
-class DesignableUIButton: UIButton{}
-class DesignableUITextField: UITextField{}
-
 extension UIView{
     
     static var topWindow: UIWindow?{
