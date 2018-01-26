@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rxStep</string>
+	<string>useCase</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import RxFlow
+	<string>
+import Foundation
+import RxSwift
 
-enum &lt;#AppStep#&gt;: Step{
-    case &lt;#movieList#&gt;
-    case &lt;#moviePicked(withMovieId: Int)#&gt;
-}</string>
+public protocol &lt;#Posts#&gt;UseCase {
+func models() -&gt; Observable&lt;[&lt;#Model#&gt;]&gt;
+func save(model: &lt;#Model#&gt;) -&gt; Observable&lt;Void&gt;
+func delete(model: &lt;#Model#&gt;) -&gt; Observable&lt;Void&gt;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8889DFF1-964A-4E2E-952B-EB8570D7F7EE</string>
+	<string>FBDA6394-80A3-4149-8E1E-ED2308F8F22E</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a step for app flows based on RxFlow Framework</string>
+	<string>Define a Protocol for an Use Case</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>RxFlow Step</string>
+	<string>Use Case Protocol</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

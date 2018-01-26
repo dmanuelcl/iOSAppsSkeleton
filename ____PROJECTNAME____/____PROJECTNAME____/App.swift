@@ -1,5 +1,5 @@
 //
-//  ____PROJECTNAME____.swift
+//  App.swift
 //  ____PROJECTNAME____
 //
 //  Created by Dani Manuel Céspedes Lara on 1/24/18.
@@ -11,9 +11,10 @@ import Foundation
 struct App {
 
     //MARK: Use Case Provider
-    static let useCaseProvider: UseCaseProvider!
+    var useCaseProvider: UseCaseProvider!
 
     //MARK: Flows
 
 
 }
+

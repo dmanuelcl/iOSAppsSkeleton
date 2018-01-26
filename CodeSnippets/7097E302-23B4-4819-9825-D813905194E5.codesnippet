@@ -10,7 +10,6 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>
-
 import RxFlow
 
 class &lt;#App#&gt;Flow: Flow {
@@ -20,10 +19,10 @@ class &lt;#App#&gt;Flow: Flow {
     }
 
     private let rootViewController = &lt;#UINavigationController#&gt;
-    private let service: &lt;#UseCaseService#&gt;
+    private let useCase: &lt;#UseCase#&gt;
 
-    init(withService service: &lt;#UseCaseService#&gt;) {
-        self.service = service
+    init(withService useCase: &lt;#UseCase#&gt;) {
+        self.useCase = useCase
     }
 
     func navigate(to step: Step) -&gt; [Flowable] {
@@ -38,7 +37,7 @@ class &lt;#App#&gt;Flow: Flow {
     }
 
     private func navigateToSomethingListScreen() -&gt; [Flowable] {
-        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.service)
+        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.useCase)
         let viewController = &lt;#UseCase#&gt;ViewController.instantiate(with: viewModel)
         viewController.title = "Something Title"
         self.rootViewController.pushViewController(viewController, animated: true)
@@ -46,7 +45,7 @@ class &lt;#App#&gt;Flow: Flow {
     }
 
     private func navigateToSomethingDetailScreen(with &lt;#something#&gt;Id: Int) -&gt; [Flowable] {
-        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.service, andMovieId: &lt;#somethingId#&gt;)
+        let viewModel = &lt;#UseCase#&gt;ViewModel(with: self.useCase, andMovieId: &lt;#somethingId#&gt;)
         let viewController = &lt;#UseCase#&gt;ViewController.instantiate(with: viewModel)
         viewController.title = "Something Title"
         self.rootViewController.pushViewController(viewController, animated: true)
@@ -66,6 +65,6 @@ class &lt;#App#&gt;Flow: Flow {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

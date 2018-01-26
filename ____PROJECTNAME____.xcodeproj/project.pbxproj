@@ -17,7 +17,7 @@
 		0F5F23B02019C1870040D0B1 /* UINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23AF2019C1870040D0B1 /* UINavigationBar.swift */; };
 		0F5F23B32019C1A80040D0B1 /* ObjCWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23B22019C1A80040D0B1 /* ObjCWrappers.swift */; };
 		0F5F23B52019C1F10040D0B1 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23B42019C1F10040D0B1 /* UINavigationController.swift */; };
-		0F5F23B72019C2000040D0B1 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23B62019C1FF0040D0B1 /* UITableView.swift */; };
+		0F5F23B72019C2000040D0B1 /* UITableView+EmptyStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23B62019C1FF0040D0B1 /* UITableView+EmptyStatus.swift */; };
 		0F5F23B92019C2610040D0B1 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23B82019C2610040D0B1 /* UITextField.swift */; };
 		0F5F23BB2019C29E0040D0B1 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23BA2019C29E0040D0B1 /* UIView.swift */; };
 		0F5F23BD2019C36B0040D0B1 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23BC2019C36B0040D0B1 /* UIViewController.swift */; };
@@ -27,8 +27,12 @@
 		0F5F23C42019CD530040D0B1 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23C32019CD530040D0B1 /* String.swift */; };
 		0F5F23C62019CDEA0040D0B1 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5F23C52019CDEA0040D0B1 /* FontsManager.swift */; };
 		0F807038201A488100463852 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807037201A488100463852 /* UIView+Designable.swift */; };
-		0F80703A201A746400463852 /* MainFow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807039201A746400463852 /* MainFow.swift */; };
 		0F80703D201A7BB900463852 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80703C201A7BB900463852 /* ViewModelBased.swift */; };
+		0F80703F201A99A800463852 /* UITableViewCell+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F80703E201A99A800463852 /* UITableViewCell+ReusableCell.swift */; };
+		0F807041201A99E400463852 /* UITableView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807040201A99E400463852 /* UITableView+ReusableCell.swift */; };
+		0F807043201A9A3100463852 /* Observable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807042201A9A3100463852 /* Observable+Ext.swift */; };
+		0F807045201AA01D00463852 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807044201AA01D00463852 /* ErrorTracker.swift */; };
+		0F807047201AA3C400463852 /* ObservableActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F807046201AA3C400463852 /* ObservableActivityIndicator.swift */; };
 		0F918CA22019B438006550C6 /* AppDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F918C992019B437006550C6 /* AppDomain.framework */; };
 		0F918CA92019B438006550C6 /* AppDomainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F918CA82019B438006550C6 /* AppDomainTests.swift */; };
 		0F918CAB2019B438006550C6 /* AppDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F918C9B2019B437006550C6 /* AppDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,7 +118,7 @@
 		0F5F23AF2019C1870040D0B1 /* UINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationBar.swift; sourceTree = "<group>"; };
 		0F5F23B22019C1A80040D0B1 /* ObjCWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjCWrappers.swift; sourceTree = "<group>"; };
 		0F5F23B42019C1F10040D0B1 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
-		0F5F23B62019C1FF0040D0B1 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		0F5F23B62019C1FF0040D0B1 /* UITableView+EmptyStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+EmptyStatus.swift"; sourceTree = "<group>"; };
 		0F5F23B82019C2610040D0B1 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		0F5F23BA2019C29E0040D0B1 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		0F5F23BC2019C36B0040D0B1 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
@@ -122,8 +126,12 @@
 		0F5F23C32019CD530040D0B1 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		0F5F23C52019CDEA0040D0B1 /* FontsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
 		0F807037201A488100463852 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
-		0F807039201A746400463852 /* MainFow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFow.swift; sourceTree = "<group>"; };
 		0F80703C201A7BB900463852 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		0F80703E201A99A800463852 /* UITableViewCell+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReusableCell.swift"; sourceTree = "<group>"; };
+		0F807040201A99E400463852 /* UITableView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCell.swift"; sourceTree = "<group>"; };
+		0F807042201A9A3100463852 /* Observable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Ext.swift"; sourceTree = "<group>"; };
+		0F807044201AA01D00463852 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		0F807046201AA3C400463852 /* ObservableActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableActivityIndicator.swift; sourceTree = "<group>"; };
 		0F918C6D2019B2B6006550C6 /* ____PROJECTNAME____Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "____PROJECTNAME____Tests.swift"; sourceTree = "<group>"; };
 		0F918C6E2019B2B6006550C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F918C702019B2B6006550C6 /* ____PROJECTNAME____UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "____PROJECTNAME____UITests.swift"; sourceTree = "<group>"; };
@@ -354,11 +362,14 @@
 				0F5F23BC2019C36B0040D0B1 /* UIViewController.swift */,
 				0F5F23BA2019C29E0040D0B1 /* UIView.swift */,
 				0F5F23B82019C2610040D0B1 /* UITextField.swift */,
-				0F5F23B62019C1FF0040D0B1 /* UITableView.swift */,
+				0F5F23B62019C1FF0040D0B1 /* UITableView+EmptyStatus.swift */,
 				0F5F23B42019C1F10040D0B1 /* UINavigationController.swift */,
 				0F5F23AF2019C1870040D0B1 /* UINavigationBar.swift */,
 				0F5F23AD2019C1720040D0B1 /* UIImage.swift */,
 				0F5F23AB2019C1530040D0B1 /* UIColor.swift */,
+				0F80703E201A99A800463852 /* UITableViewCell+ReusableCell.swift */,
+				0F807040201A99E400463852 /* UITableView+ReusableCell.swift */,
+				0F807042201A9A3100463852 /* Observable+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -385,7 +396,6 @@
 		0F918C7F2019B2B7006550C6 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				0F807039201A746400463852 /* MainFow.swift */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -449,6 +459,8 @@
 		0F918CC22019B4B9006550C6 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0F807044201AA01D00463852 /* ErrorTracker.swift */,
+				0F807046201AA3C400463852 /* ObservableActivityIndicator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1003,22 +1015,26 @@
 			files = (
 				0F5F23C02019C6AE0040D0B1 /* Fonts.swift in Sources */,
 				0F918D292019B7FB006550C6 /* AppDelegate.swift in Sources */,
-				0F80703A201A746400463852 /* MainFow.swift in Sources */,
 				0F5F23B92019C2610040D0B1 /* UITextField.swift in Sources */,
+				0F807041201A99E400463852 /* UITableView+ReusableCell.swift in Sources */,
 				0F5F23BD2019C36B0040D0B1 /* UIViewController.swift in Sources */,
 				0F5F23BB2019C29E0040D0B1 /* UIView.swift in Sources */,
 				0F5F23B52019C1F10040D0B1 /* UINavigationController.swift in Sources */,
 				0F5F23AE2019C1730040D0B1 /* UIImage.swift in Sources */,
+				0F807043201A9A3100463852 /* Observable+Ext.swift in Sources */,
 				0F5F23AC2019C1530040D0B1 /* UIColor.swift in Sources */,
+				0F807047201AA3C400463852 /* ObservableActivityIndicator.swift in Sources */,
 				0F5F23C62019CDEA0040D0B1 /* FontsManager.swift in Sources */,
 				0F80703D201A7BB900463852 /* ViewModelBased.swift in Sources */,
 				0F5F23B32019C1A80040D0B1 /* ObjCWrappers.swift in Sources */,
 				0F5F23BF2019C6A80040D0B1 /* Colors.swift in Sources */,
-				0F5F23B72019C2000040D0B1 /* UITableView.swift in Sources */,
+				0F5F23B72019C2000040D0B1 /* UITableView+EmptyStatus.swift in Sources */,
 				0F5F23B02019C1870040D0B1 /* UINavigationBar.swift in Sources */,
 				0F918D262019B740006550C6 /* App.swift in Sources */,
 				0F807038201A488100463852 /* UIView+Designable.swift in Sources */,
+				0F807045201AA01D00463852 /* ErrorTracker.swift in Sources */,
 				0F5F23C22019CD020040D0B1 /* Double.swift in Sources */,
+				0F80703F201A99A800463852 /* UITableViewCell+ReusableCell.swift in Sources */,
 				0F5F23C42019CD530040D0B1 /* String.swift in Sources */,
 				0F42B3BB2019B8CD00477F11 /* UseCasesProviders.swift in Sources */,
 			);
